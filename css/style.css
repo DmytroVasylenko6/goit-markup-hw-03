@@ -21,15 +21,20 @@ body {
 }
 
 .page-header {
+  padding-top: 24px;
   background-color: brown;
 }
 
-.content-header {
-  margin-left: auto;
-  margin-right: auto;
+.container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
+  margin: 0 200px;
+  border: 2px solid red;
+}
+
+p {
+  margin: 0;
 }
 .list {
   margin: 0;
@@ -37,16 +42,8 @@ body {
   list-style: none;
 }
 
-.center {
-  text-align: center;
-}
-
 /* логотип */
 .logo-webstudio {
-  display: inline-block;
-  margin-top: 23px;
-  width: 153px;
-  height: 31px;
   font-family: Raleway, sans-serif;
   text-decoration: none;
   font-style: normal;
@@ -101,23 +98,26 @@ body {
 /* section-1 */
 .section-title {
   background-color: gray;
+  text-align: center;
 }
 
 .section-title .title {
+  margin: 0px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 .button {
-  display: ;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.86;
-  text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
   background-color: #2196f3;
@@ -126,7 +126,15 @@ body {
 }
 
 /* section-2 */
+
+.section-qualities {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .qualities {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.2;
@@ -144,7 +152,11 @@ body {
 }
 
 /* section-3 */
+.work-section {
+  padding-bottom: 87px;
+}
 .work-title {
+  margin: 0;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -152,9 +164,16 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+.work-list {
+  margin-top: 50px;
+}
 
 .work-list h3 {
-  background-color: gray;
+  width: 370px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: 0;
+  background-color: rgba(47, 48, 58, 0.8);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.2;
@@ -165,8 +184,17 @@ body {
 }
 
 /* section-4 */
+.ourteam-section {
+  padding-top: 101px;
+  padding-bottom: 87px;
+  background-color: #f5f4fa;
+}
+.ourteam {
+  margin-top: 50px;
+}
 
 .ourtaem-title {
+  margin: 0;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -175,6 +203,7 @@ body {
   color: var(--title-text-color);
 }
 .ourteam h3 {
+  margin: 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -184,6 +213,7 @@ body {
 }
 
 .ourteam p {
+  margin-top: 10px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -191,9 +221,20 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.team {
+  padding-top: 30px;
+  width: 270px;
+  background-color: #ffffff;
+}
 
 /* section-5 */
+.regular-customers {
+  padding-top: 101px;
+  padding-bottom: 94px;
+}
+
 .customers-title {
+  margin: 0;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -202,9 +243,26 @@ body {
   color: var(--title-text-color);
 }
 
+.customers-link {
+  margin-top: 50px;
+}
+
 /* fotter */
+.footer {
+  background-color: #2f303a;
+}
+
+.contacts-box {
+  margin-top: 49px;
+  width: 231px;
+  border: 2px solid red;
+}
+
+.socialinks-box {
+}
 .logo-footer {
-  background-color: gray;
+  display: inline-block;
+  margin-bottom: 8px;
   font-family: Raleway, sans-serif;
   text-decoration: none;
   font-style: normal;
@@ -223,7 +281,6 @@ body {
 }
 
 .address {
-  background-color: gray;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -233,7 +290,6 @@ body {
 }
 
 .contacts-footer a {
-  background-color: gray;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -249,7 +305,6 @@ body {
 }
 
 .invitation {
-  background-color: gray;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -259,7 +314,6 @@ body {
 }
 
 .developers {
-  background-color: gray;
   font-weight: normal;
   font-size: 12px;
   line-height: 2;
@@ -286,7 +340,7 @@ body {
 }
 
 .portfolio-home {
-  visibility: hidden;
+  display: none;
 }
 
 .portfolio {
