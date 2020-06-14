@@ -20,9 +20,12 @@ body {
   font-style: normal;
 }
 
+img {
+  display: block;
+}
+
 .page-header {
   padding-top: 24px;
-  background-color: brown;
 }
 
 .container {
@@ -30,16 +33,27 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 200px;
-  border: 2px solid red;
 }
 
 p {
   margin: 0;
 }
+
 .list {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
 }
 
 /* логотип */
@@ -62,7 +76,19 @@ p {
 }
 
 /* навигация сайта */
+.site-nav {
+  display: flex;
+  margin-left: 85px;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -78,6 +104,14 @@ p {
 
 .site-nav .link.active {
   color: #2196f3;
+}
+
+.contacts-header {
+  display: flex;
+}
+
+.contacts-header .item + .item {
+  margin-left: 30px;
 }
 
 .contacts-header a {
@@ -132,6 +166,19 @@ p {
   padding-bottom: 94px;
 }
 
+.personal-qualities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-qualities .item {
+  width: 270px;
+}
+
+.personal-qualities .item + .item {
+  margin-left: 30px;
+}
+
 .qualities {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -165,7 +212,17 @@ p {
   color: var(--title-text-color);
 }
 .work-list {
+  display: flex;
+  justify-content: space-between;
   margin-top: 50px;
+}
+
+.work-list .item {
+  width: 370px;
+}
+
+.work-list .item + .item {
+  margin-left: 30px;
 }
 
 .work-list h3 {
@@ -190,7 +247,26 @@ p {
   background-color: #f5f4fa;
 }
 .ourteam {
+  display: flex;
+  justify-content: space-between;
   margin-top: 50px;
+}
+.ourteam .item {
+  width: 270px;
+}
+
+.ourteam .item + .item {
+  margin-left: 30px;
+}
+
+.item .social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-links .items + .items {
+  margin-left: 10px;
 }
 
 .ourtaem-title {
@@ -223,6 +299,7 @@ p {
 }
 .team {
   padding-top: 30px;
+  padding-bottom: 24px;
   width: 270px;
   background-color: #ffffff;
 }
@@ -244,22 +321,45 @@ p {
 }
 
 .customers-link {
+  display: flex;
+  justify-content: space-between;
   margin-top: 50px;
+}
+
+.customers-link .item + .item {
+  margin-left: 30px;
 }
 
 /* fotter */
 .footer {
+  padding-top: 45px;
+  padding-bottom: 21px;
   background-color: #2f303a;
 }
 
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 28px;
+}
+
 .contacts-box {
-  margin-top: 49px;
   width: 231px;
-  border: 2px solid red;
+}
+
+.invitation-container {
+  margin-left: 69px;
 }
 
 .socialinks-box {
+  display: flex;
+  margin-top: 20px;
 }
+
+.socialinks-box .item + .item {
+  margin-left: 10px;
+}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 8px;
@@ -314,6 +414,7 @@ p {
 }
 
 .developers {
+  margin-top: 18px;
   font-weight: normal;
   font-size: 12px;
   line-height: 2;
