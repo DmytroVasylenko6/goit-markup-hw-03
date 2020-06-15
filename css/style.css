@@ -24,10 +24,6 @@ img {
   display: block;
 }
 
-.page-header {
-  padding-top: 24px;
-}
-
 .container {
   width: 1230px;
   padding-right: 15px;
@@ -132,6 +128,9 @@ nav {
 
 /* section-1 */
 .section-title {
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: gray;
   text-align: center;
 }
@@ -180,8 +179,12 @@ nav {
   margin-left: 30px;
 }
 
+.image-qualities {
+  margin-bottom: 30px;
+}
+
 .qualities {
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
@@ -227,9 +230,10 @@ nav {
 }
 
 .work-list h3 {
+  height: 70px;
   width: 370px;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 27px;
+  padding-bottom: 27px;
   margin: 0;
   background-color: rgba(47, 48, 58, 0.8);
   font-weight: bold;
@@ -382,6 +386,8 @@ nav {
 }
 
 .address {
+  display: inline-block;
+  margin-bottom: 9px;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -390,6 +396,10 @@ nav {
   color: #ffffff;
 }
 
+.contacts-footer .mail {
+  display: inline-block;
+  margin-bottom: 9px;
+}
 .contacts-footer a {
   font-style: normal;
   font-weight: normal;
@@ -489,9 +499,16 @@ nav {
   text-decoration: none;
 }
 
+.text-content {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
 .portfolio-title {
   margin: 0;
-  padding: 20px 24px 4px 24px;
+  margin-bottom: 4px;
   font-weight: bold;
   text-decoration: none;
   font-size: 18px;
@@ -501,7 +518,6 @@ nav {
 }
 
 .portfolio-description {
-  padding: 0px 24px 20px 24px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;

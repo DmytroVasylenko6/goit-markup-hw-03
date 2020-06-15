@@ -55,11 +55,13 @@
     <main>
       <!--Section-1-->
       <section class="section-title">
-        <h1 class="title">
-          эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button type="button" class="button">Заказать услугу</button>
+        <div class="container">
+          <h1 class="title">
+            эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button type="button" class="button">Заказать услугу</button>
+        </div>
       </section>
 
       <!--Section-2-->
@@ -69,6 +71,7 @@
           <ul class="personal-qualities list">
             <li class="item">
               <img
+                class="image-qualities"
                 src="./images/Group.svg"
                 alt="картинка"
                 width="270"
@@ -82,6 +85,7 @@
             </li>
             <li class="item">
               <img
+                class="image-qualities"
                 src="./images/clock1.svg"
                 alt="картинка"
                 width="270"
@@ -95,6 +99,7 @@
             </li>
             <li class="item">
               <img
+                class="image-qualities"
                 src="./images/Vector.svg"
                 alt="картинка"
                 width="270"
@@ -108,6 +113,7 @@
             </li>
             <li class="item">
               <img
+                class="image-qualities"
                 src="./images/astronaut1.svg"
                 alt="картинка"
                 width="270"
@@ -131,7 +137,7 @@
           <ul class="work-list list">
             <li class="item">
               <img src="./images/img.jpg" alt="картинка" width="370" />
-              <h3 class="work">Десктопные приложения</h3>
+              <h3>Десктопные приложения</h3>
             </li>
 
             <li class="item">
@@ -430,7 +436,11 @@
             <address>
               <span class="address">г. Киев, пр-т Леси Украинки, 26</span>
               <ul class="contacts-footer list">
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li>
+                  <a class="mail" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
                 <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
               </ul>
             </address>
@@ -475,7 +485,6 @@
             </ul>
           </div>
         </div>
-        <hr />
         <p class="developers">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
