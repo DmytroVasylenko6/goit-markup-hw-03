@@ -337,15 +337,14 @@ nav {
 
 /* fotter */
 .footer {
-  padding-top: 45px;
-  padding-bottom: 21px;
   background-color: #2f303a;
 }
 
-.footer-flex {
+.footer-flex.container {
   display: flex;
   align-items: baseline;
-  margin-bottom: 28px;
+  padding-top: 45px;
+  padding-bottom: 28px;
 }
 
 .contacts-box {
@@ -424,8 +423,10 @@ nav {
   color: #ffffff;
 }
 
-.developers {
-  margin-top: 18px;
+.developers.container {
+  padding-top: 18px;
+  padding-bottom: 21px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-weight: normal;
   font-size: 12px;
   line-height: 2;
