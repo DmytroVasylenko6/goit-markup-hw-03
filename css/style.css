@@ -25,7 +25,7 @@ img {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
@@ -481,7 +481,7 @@ nav {
 }
 
 .portfolio-box .elements {
-  width: 380px;
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
